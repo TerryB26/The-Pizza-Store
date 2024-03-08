@@ -1,0 +1,39 @@
+.navbar {
+  box-shadow: 0px 0px 10px;
+  margin-bottom: 50px;
+}
+
+body {
+  font-family: 'Albert Sans', sans-serif;
+  background: #f8f9fc;
+}
+
+.brand-section {
+  margin-right: 50px;
+}
+
+.home-heading {
+  font-family: Akronim, serif;
+  font-size: 60px;
+}
+
+.menu-row {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background: #ffffff;
+  border-width: 0px;
+  border-style: solid;
+  border-radius: 50px;
+  box-shadow: 0px 0px 10px;
+  width: 850px;
+}
+
+.pizza-title {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.pizza-price {
+  font-weight: bold;
+}
+

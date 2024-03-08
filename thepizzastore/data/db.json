@@ -1,0 +1,110 @@
+{
+  "pizzas": [
+    {
+      "id": 1,
+      "name": "Margherita Pizza",
+      "ingredients": "Tomato Sauce, Mozzarella Cheese, Fresh Basil",
+      "price": 9.99
+    },
+    {
+      "id": 2,
+      "name": "Pepperoni Pizza",
+      "ingredients": "Tomato Sauce, Mozzarella Cheese, Pepperoni Slices",
+      "price": 11.99
+    },
+    {
+      "id": 3,
+      "name": "Vegetarian Pizza",
+      "ingredients": "Tomato Sauce, Mozzarella Cheese, Bell Peppers, Onions, Mushrooms, Olives",
+      "price": 10.99
+    },
+    {
+      "id": 4,
+      "name": "Hawaiian Pizza",
+      "ingredients": "Tomato Sauce, Mozzarella Cheese, Ham, Pineapple",
+      "price": 12.99
+    },
+    {
+      "id": 5,
+      "name": "BBQ Chicken Pizza",
+      "ingredients": "BBQ Sauce, Mozzarella Cheese, Grilled Chicken, Red Onions, Cilantro",
+      "price": 13.99
+    }
+  ],
+
+  "toppings": [
+    {
+      "id": 1,
+      "name": "Extra Cheese",
+      "toppings": "Extra Cheese, Mozzarella Cheese, Tomato Sauce",
+      "price": 1.50
+    },
+    {
+      "id": 2,
+      "name": "Bacon",
+      "toppings": "Bacon, Mozzarella Cheese, Tomato Sauce",
+      "price": 2.00
+    },
+    {
+      "id": 3,
+      "name": "Spinach",
+      "toppings": "Spinach, Mozzarella Cheese, Tomato Sauce",
+      "price": 1.75
+    },
+    {
+      "id": 4,
+      "name": "Jalapenos",
+      "toppings": "Jalapenos, Mozzarella Cheese, Tomato Sauce",
+      "price": 1.25
+    },
+    {
+      "id": 5,
+      "name": "Pineapple",
+      "toppings": "Pineapple, Mozzarella Cheese, Tomato Sauce",
+      "price": 1.80
+    }
+  ],
+
+  "orders": [
+    {
+      "orderId": 1,
+      "pizzaName": "Margherita Pizza",
+      "orderRef": "ABC123",
+      "orderTotal": 12.99,
+      "orderStatus": "pending",
+      "date": "2024-03-07"
+    },
+    {
+      "orderId": 2,
+      "pizzaName": "Pepperoni Pizza",
+      "orderRef": "DEF456",
+      "orderTotal": 14.99,
+      "orderStatus": "processing",
+      "date": "2024-03-08"
+    },
+    {
+      "orderId": 3,
+      "pizzaName": "Vegetarian Pizza",
+      "orderRef": "GHI789",
+      "orderTotal": 13.99,
+      "orderStatus": "shipped",
+      "date": "2024-03-09"
+    },
+    {
+      "orderId": 4,
+      "pizzaName": "Hawaiian Pizza",
+      "orderRef": "JKL012",
+      "orderTotal": 15.99,
+      "orderStatus": "delivered",
+      "date": "2024-03-10"
+    },
+    {
+      "orderId": 5,
+      "pizzaName": "BBQ Chicken Pizza",
+      "orderRef": "MNO345",
+      "orderTotal": 16.99,
+      "orderStatus": "pending",
+      "date": "2024-03-11"
+    }
+  ]
+}
